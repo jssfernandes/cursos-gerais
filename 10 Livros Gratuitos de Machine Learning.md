@@ -12,3 +12,7 @@ Esta é a segunda edição, publicada em 2020. Com 570 páginas na versão impre
 
 Um dos livros mais completos sobre Deep Learning. Mas não é um livro para iniciantes e recomendamos a leitura somente se já tiver um bom conhecimento de Machine Learning.
 
+### [4. Foundations of Data Science](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/11/book-June-14-2017pdf.pdf)
+
+Livro publicado pela Microsoft e disponível gratuitamente. Autoria de Avrim Blum, John Hopcroft e Ravi Kannan. Tópicos interessantes abordados neste livro incluem grafos aleatórios, modelos ocultos de Markov, wavelets, decomposição de valor singular e redução de dimensão, caminhadas aleatórias, redes adversárias generativas e clustering (K-means).
+
