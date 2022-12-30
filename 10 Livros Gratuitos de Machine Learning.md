@@ -16,3 +16,7 @@ Um dos livros mais completos sobre Deep Learning. Mas não é um livro para inic
 
 Livro publicado pela Microsoft e disponível gratuitamente. Autoria de Avrim Blum, John Hopcroft e Ravi Kannan. Tópicos interessantes abordados neste livro incluem grafos aleatórios, modelos ocultos de Markov, wavelets, decomposição de valor singular e redução de dimensão, caminhadas aleatórias, redes adversárias generativas e clustering (K-means).
 
+### [5. Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
+
+Livro de autoria de Christopher Bishop e disponível gratuitamente. Destinado a alunos de graduação ou alunos de doutorado do primeiro ano, bem como pesquisadores e profissionais, e não pressupõe nenhum conhecimento prévio de reconhecimento de padrões ou conceitos de aprendizado de máquina. Conhecimento de cálculo multivariado e álgebra linear básica é necessário, e alguma familiaridade com probabilidades seria útil, embora não essencial, pois o livro inclui uma introdução independente à teoria básica de probabilidade. Tópicos interessantes incluem máquinas de kernel esparsas, inferência aproximada, cadeia de Markov, além de análise de componentes principais, algoritmo EM, redes neurais e modelos lineares.
+
