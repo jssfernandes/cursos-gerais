@@ -7,3 +7,8 @@ Livro de autoria de Murat Durmus. Inclui um capítulo sobre tendências algorít
 ### [2. Learning Scientific Programming with Python](https://scipython.com/book2/)
 
 Esta é a segunda edição, publicada em 2020. Com 570 páginas na versão impressa, é uma boa referência sobre o tema, principalmente para usuários e iniciantes de Matplotlib, NumPy e SciPy, pacotes Python amplamente usados em **Machine Learning**. O livro, de autoria de Christian Hill, está disponível no site **[SciPython.com](http://scipython.com/)**. A melhor maneira de usar a versão on-line navegável é por meio da caixa de pesquisa do site, que é muito mais útil do que o sumário.
+
+### [3. Deep Learning](https://www.deeplearningbook.org/)
+
+Um dos livros mais completos sobre Deep Learning. Mas não é um livro para iniciantes e recomendamos a leitura somente se já tiver um bom conhecimento de Machine Learning.
+
