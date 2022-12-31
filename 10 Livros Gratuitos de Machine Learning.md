@@ -36,3 +36,7 @@ Se você procura um livro de Matemática para Machine Learning esse livro é boa
 
 Um excelente livro sobre Deep Learning.
 
+### [10. Deep Learning Book](https://www.deeplearningbook.com.br/)
+
+Livro completo com 100 capítulos, online e gratuito, produzido pela Equipe Data Science Academy.
+
