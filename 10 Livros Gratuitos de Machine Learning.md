@@ -28,3 +28,7 @@ Livro disponível no ArXiv, com 237 páginas, de autoria de Osvaldo Simeone, pro
 
 Livro de autoria de Robert Haralick, distinto professor de ciência da computação na CUNY (The City University of New York). Monografia aprofundada sobre o tema, com mais de 25 autores contribuintes. Disponível gratuitamente. Abrange agrupamento baseado em grade e densidade, modelos probabilísticos, gráficos e hierárquicos, seleção de recursos, séries temporais, Big Data, dados categóricos, agrupamento de texto e multimídia, bem como agrupamento incerto e semi-supervisionado.
 
+### [8. Mathematics for Machine Learning](https://gwthomas.github.io/docs/math4ml.pdf)
+
+Se você procura um livro de Matemática para Machine Learning esse livro é boa opção, embora seja de difícil leitura
+
