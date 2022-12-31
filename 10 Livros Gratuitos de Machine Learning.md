@@ -32,3 +32,7 @@ Livro de autoria de Robert Haralick, distinto professor de ciência da computaç
 
 Se você procura um livro de Matemática para Machine Learning esse livro é boa opção, embora seja de difícil leitura
 
+### [9. Dive into Deep Learning](https://d2l.ai/)
+
+Um excelente livro sobre Deep Learning.
+
