@@ -23,7 +23,17 @@ git remote -v
 ```
 Sincronizar o repositorio local com o remoto
 ```bash
-git remote add origin https://github.com/USUARUI/REPOSITORIO.git
+git remote add origin https://github.com/[USUARIO]/[REPOSITORIO].git
+```
+
+### Iniciando um Repositorio
+Inicia um repositorio local
+```bash
+git initi
+```
+Cria uma cópia do repositorio local
+```bash
+git clone ssh://git@github.com/[USUARIO]/[REPOSITORIO].git
 ```
 
 ## Log
