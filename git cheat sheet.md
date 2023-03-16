@@ -37,7 +37,30 @@ git clone ssh://git@github.com/[USUARIO]/[REPOSITORIO].git
 ```
 
 ## Log
-
+Exibir historico dos ultimos commits
+```bash
+git log
+```
+Exibir historico com diff dos ultimos 3 commits
+```bash
+git log -p -3 
+```
+Exibir historico no CAMINHO_DO_ARQUIVO
+```bash
+git log --<CAMINHO_DO_ARQUIVO>
+```
+Exibir historico de commits com informações resumidas em uma linha. (Existem outros tipos)
+```bash
+git log --pretty=oneline
+```
+Exibir historico de modificacoes de um arquivo
+```bash
+git log --diff-filter=M --<CAMINHO_DO_ARQUIVO>
+```
+Exibir historico de um determinado autor
+```bash
+git log --author=<USUARIO>
+```
 
 ## Branch
 
