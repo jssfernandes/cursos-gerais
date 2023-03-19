@@ -63,6 +63,58 @@ git log --author=<USUARIO>
 ```
 
 ## Branch
+Cria um branch com o nome nova-branch
+```bash
+git branch nova-branch
+```
+Cria uma branch nova com o nome nova-branch e muda o codigo e a referencia para essa no nova-branch
+```bash
+git checkout -b nova-branch
+```
+Muda o codigo atual e a referencia para a branch nova-branch
+```bash
+git checkout nova-branch
+```
+Muda o codigo para a branch principal: main
+```bash
+git checkout main
+```
+Deleta a nova-branch
+```bash
+git branch -d nova-branch
+```
+Lista as branchs criadas
+```bash
+git branch
+```
+Lista as branchs criadas com os logs de commit
+```bash
+git branch -v
+```
+Cria uma branch remota  com o nome nova-branch
+```bash
+git push origin nova-branch
+```
+Cria uma branch remota com o nome diferente da branch local
+```bash
+git push origin nova-branch:branch-nome-diferente
+```
+Download de todos os arquivos do repositorio remota para o repositorio local
+```bash
+git pull origin main
+```
+Download de todos as branchs remotas
+```bash
+git fetch origin
+```
+Download de uma branch remota para edicao
+```bash
+git checkout -b nova-branch origin/nova-branch
+```
+Realiza o merge entre as branchs, ou seja, junta o ramo na arvore principal
+```bash
+git merge nova-branch 
+```
 
 
 ## Arquivo
