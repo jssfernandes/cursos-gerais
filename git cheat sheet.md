@@ -118,6 +118,23 @@ git merge nova-branch
 
 
 ## Arquivo
+### Adicionar
+Adiciona todos os arquivos ou diretórios modificados
+```bash
+git add .
+```
+Adiciona somente o arquivo meu_programa.py;
+```bash
+git add meu_programa.py
+```
+Adiciona somente o diretorio meu_diretorio;
+```bash
+git add meu_diretorio
+```
+Adiciona um arquivo que está no .gitignore;
+```bash
+git add -f meu_programa_gitignore.py
+```
 
 
 ## Mudança
