@@ -36,6 +36,7 @@ Cria uma cópia do repositorio local
 git clone ssh://git@github.com/[USUARIO]/[REPOSITORIO].git
 ```
 
+
 ## Log
 Exibir historico dos ultimos commits
 ```bash
@@ -61,6 +62,7 @@ Exibir historico de um determinado autor
 ```bash
 git log --author=<USUARIO>
 ```
+
 
 ## Branch
 Cria um branch com o nome nova-branch
@@ -134,6 +136,16 @@ git add meu_diretorio
 Adiciona um arquivo que está no .gitignore;
 ```bash
 git add -f meu_programa_gitignore.py
+```
+
+### Remover
+Remover arquivo
+```bash
+git rm meu_arquivo.txt
+```
+Remover diretório
+```bash
+git rm -r diretorio
 ```
 
 
