@@ -148,6 +148,20 @@ Remover diretório
 git rm -r diretorio
 ```
 
+### Commitar
+Comitar um arquivo
+```bash
+git commit meu_programa.py
+```
+Comitar vários arquivos
+```bash
+git commit file1.txt file2.txt
+```
+Comitar informando mensagem
+```bash
+git commit meuarquivo.txt -m "minha mensagem de commit"
+```
+
 
 ## Mudança
 
