@@ -164,6 +164,26 @@ git commit meuarquivo.txt -m "minha mensagem de commit"
 
 
 ## Mudança
+Mostrar as modificações totais do projeto
+```bash
+gitk 
+```
+Modificações antes de enviar as modificações para o repositório remoto (commit)
+```bash
+git diff
+```
+Estado dos arquivos/diretório
+```bash
+git status
+```
+Alterar mensagens de commit já realizado
+```bash
+git commit --amend -m "Minha nova mensagem"
+```
+Alterar últimos commits, modificando as mensagens
+```bash
+git rebase -i HEAD-3
+```
 
 
 ## Stash
