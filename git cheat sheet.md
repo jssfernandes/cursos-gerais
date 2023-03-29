@@ -187,6 +187,26 @@ git rebase -i HEAD-3
 
 
 ## Stash
+Criar um stash, salvar temporariamente as modificações
+```bash
+git stash
+```
+Listar os stashes criados
+```bash
+git stash list
+```
+Voltar ao último stash
+```bash
+git stash apply
+```
+Voltar ao stash com índice 2
+```bash
+git stash apply stash@{2}
+```
+Criar um branch a partir de um stash
+```bash
+git stash branch minha_branch
+```
 
 
 ## Chery
