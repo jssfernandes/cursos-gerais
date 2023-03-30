@@ -209,5 +209,17 @@ git stash branch minha_branch
 ```
 
 
-## Chery
+## Chery-Pic
+Copia as informações desse commit 
+```bash
+git cherry-pick <commit-id>
+```
+Copia todos os commits entre o commit A e o commit B, inclusive A e B.
+```bash
+git cherry-pick A^..B
+```
+Copia todos os commits entre o commit A e o commit B, excluindo A.
+```bash
+git cherry-pick A..B
+```
 
