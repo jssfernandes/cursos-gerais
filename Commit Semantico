@@ -1,0 +1,11 @@
+# Commits Semânticos
+
+• Test: criação ou alteração de algum código de teste
+• Perf: alterações feitas para melhorar a performance do projeto, exemplo: melhorar a query do banco de dados, deixar uma função mais performática, etc
+• Docs: alterações na documentação do projeto, exemplo: readme, swagger, etc
+• Chore: mudanças que não influenciam o sistema nem arquivos de teste, exemplo: adicionar arquivos ao git ignore, mudanças no eslint, etc
+• Style: mudanças de formatação ou estilo de código que não influenciam na lógica do sistema
+• Build: mudanças que impactam no processo de build
+• Feat: nova feature no projeto, exemplo: funcionalidade, serviço, endpoint, etc
+• Refactor: refatoração de alguma parte do código
+• Fix: correção de erros que estão causando bugs
