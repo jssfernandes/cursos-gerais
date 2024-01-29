@@ -1,0 +1,7 @@
+Black para formatação de código.
+Flake8 para verificação de estilo e erros.
+isort para organizar importações.
+Commitizen para mensagens de commit padronizadas.
+Mypy para verificação de tipos estáticos.
+Bandit para análise de segurança do código.
+Pydocstyle para verificar a conformidade dos docstrings.
