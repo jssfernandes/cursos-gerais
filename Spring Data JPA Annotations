@@ -1,0 +1,57 @@
+@Entity
+This annotation marks a class as a JPA entity, representing a table in the database. It is a fundamental building block for Spring Data JPA.
+
+
+@Repository
+Indicates that an interface or class is a repository, responsible for database operations. It allows for exception translation and simplifies data access.
+
+
+@Id
+Used to specify the primary key of an entity. It marks a field as the unique identifier for database records.
+
+
+@GeneratedValue
+Works in conjunction with @Id to automatically generate a value for the primary key. It's commonly used with numeric primary key columns.
+
+
+@Table
+Provides metadata about the table associated with the annotated entity. It allows customization of table names, schema, and other properties.
+
+
+@Table
+Provides metadata about the table associated with the annotated entity. It allows customization of table names, schema, and other properties.
+
+
+@Query
+Used to declare custom queries directly on the repository interface. It allows the definition of complex 
+ queries beyond the methods automatically provided by Spring Data.
+
+
+@OneToOne
+Establishes a one-to-one relationship between two entities. It is used to annotate a field in one entity that references another entity. This implies that each record in the first entity corresponds to exactly one record in the second entity, and vice versa.
+
+
+@OneToMany
+Defines a one-to-many relationship between two entities. Typically, it's applied to a collection field in one entity, indicating that each record in the owning entity can be related to multiple records in the referenced entity.
+
+
+@ManyToOne
+Represents a many-to-one relationship between two entities. Applied to a field in the owning entity, it signifies that multiple records in the owning entity can refer to a single record in the referenced entity.
+
+
+@ManyToMany
+Establishes a many-to-many relationship between two entities. It is applied to a collection field in both entities, indicating that each record in one entity can be associated with multiple records in the other entity, and vice versa.
+
+
+@JoinColumn
+Used to specify the foreign key column when there is a need to customize the mapping of a relationship. It is often used with @OneToOne and @ManyToOne to explicitly define the foreign key column name and other attributes.
+
+
+@JoinTable
+Defines a join table for a many-to-many relationship. It is often used with @ManyToMany to specify the intermediate table that manages the relationship, including the columns used for joining entities.
+
+
+@MappedBy
+Used in bidirectional relationships to specify the field on the inverse side of the relationship that owns the mapping. It is typically used with @OneToMany and @ManyToMany to avoid the creation of redundant columns.
+
+
